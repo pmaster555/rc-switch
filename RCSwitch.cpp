@@ -83,7 +83,7 @@ static const RCSwitch::Protocol PROGMEM proto[] = {
   { 320, { 0, 0 }, { 36,  1 }, {  1,  2 }, {  2,  1 }, true, 0},     // protocol 8 (SM5212)
   { 220, { 0, 0 }, {  1, 46 }, {  1,  6 }, {  1,  1 }, false, 2},    // protocol 9 (NEXA)
   { 270, { 0, 0 }, { 36,  1 }, {  1,  2 }, {  2,  1 }, true, 0},     // protocol 10 (HT12E)
-  { 260, { 0, 0 }, { 1,  8 }, {  1,  4 }, {  4,  1 }, true, 0}     // protocol 10 (anima)
+  { 260, { 0, 0 }, { 1,   8 }, {  1,  4 }, {  4,  1 }, true, 0}     // protocol 10 (anima)
 };
 
 enum {
