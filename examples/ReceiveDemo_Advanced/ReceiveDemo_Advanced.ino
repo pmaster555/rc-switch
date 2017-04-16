@@ -1,9 +1,9 @@
 /*
   Example for receiving
-  
+
   https://github.com/sui77/rc-switch/
-  
-  If you want to visualize a telegram copy the raw data and 
+
+  If you want to visualize a telegram copy the raw data and
   paste it into http://test.sui.li/oszi/
 */
 
@@ -12,8 +12,8 @@
 RCSwitch mySwitch = RCSwitch();
 
 void setup() {
-  Serial.begin(9600);
-  mySwitch.enableReceive(0);  // Receiver on interrupt 0 => that is pin #2
+  Serial.begin(115200);
+  mySwitch.enableReceive(5);  // Receiver on interrupt 0 => that is pin #2
 }
 
 void loop() {
